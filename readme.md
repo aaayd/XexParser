@@ -10,3 +10,4 @@ It allows you to read and extract metadata and assets from XEX files.
 - Extract embedded images/icons
 - Export to PE
 
+![sample](usage.png)
