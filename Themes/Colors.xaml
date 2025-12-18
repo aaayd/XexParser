@@ -1,0 +1,84 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Color x:Key="PrimaryColor">#107C10</Color>
+    <Color x:Key="PrimaryLightColor">#54A754</Color>
+    <Color x:Key="PrimaryDarkColor">#0B5C0B</Color>
+    <Color x:Key="SecondaryColor">#2D2D30</Color>
+    <Color x:Key="SecondaryLightColor">#3E3E42</Color>
+    <Color x:Key="SecondaryDarkColor">#1E1E1E</Color>
+    <Color x:Key="AccentColor">#0078D4</Color>
+    <Color x:Key="AccentLightColor">#4DA3E8</Color>
+    <Color x:Key="WarningColor">#FFB900</Color>
+    <Color x:Key="ErrorColor">#E81123</Color>
+    <Color x:Key="SuccessColor">#107C10</Color>
+    <Color x:Key="BackgroundColor">#252526</Color>
+    <Color x:Key="BackgroundLightColor">#2D2D30</Color>
+    <Color x:Key="BackgroundDarkerColor">#1E1E1E</Color>
+    <Color x:Key="SurfaceColor">#333337</Color>
+    <Color x:Key="CardColor">#3C3C3C</Color>
+    <Color x:Key="TextPrimaryColor">#FFFFFF</Color>
+    <Color x:Key="TextSecondaryColor">#B0B0B0</Color>
+    <Color x:Key="TextDisabledColor">#6D6D6D</Color>
+    <Color x:Key="TextAccentColor">#54A754</Color>
+    <Color x:Key="BorderColor">#404040</Color>
+    <Color x:Key="BorderLightColor">#505050</Color>
+    <Color x:Key="BorderFocusColor">#107C10</Color>
+    <Color x:Key="ConsoleBackgroundColor">#0C0C0C</Color>
+    <Color x:Key="ConsoleTextColor">#CCCCCC</Color>
+    <Color x:Key="ConsoleAccentColor">#54A754</Color>
+    <Color x:Key="ConsoleErrorColor">#F14C4C</Color>
+    <Color x:Key="ConsoleWarningColor">#CCA700</Color>
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="PrimaryLightBrush" Color="{StaticResource PrimaryLightColor}"/>
+    <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDarkColor}"/>
+
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
+    <SolidColorBrush x:Key="SecondaryLightBrush" Color="{StaticResource SecondaryLightColor}"/>
+    <SolidColorBrush x:Key="SecondaryDarkBrush" Color="{StaticResource SecondaryDarkColor}"/>
+
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="AccentLightBrush" Color="{StaticResource AccentLightColor}"/>
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}"/>
+    <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>
+
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+    <SolidColorBrush x:Key="BackgroundLightBrush" Color="{StaticResource BackgroundLightColor}"/>
+    <SolidColorBrush x:Key="BackgroundDarkerBrush" Color="{StaticResource BackgroundDarkerColor}"/>
+    <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource SurfaceColor}"/>
+    <SolidColorBrush x:Key="CardBrush" Color="{StaticResource CardColor}"/>
+
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimaryColor}"/>
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondaryColor}"/>
+    <SolidColorBrush x:Key="TextDisabledBrush" Color="{StaticResource TextDisabledColor}"/>
+    <SolidColorBrush x:Key="TextAccentBrush" Color="{StaticResource TextAccentColor}"/>
+
+    <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}"/>
+    <SolidColorBrush x:Key="BorderLightBrush" Color="{StaticResource BorderLightColor}"/>
+    <SolidColorBrush x:Key="BorderFocusBrush" Color="{StaticResource BorderFocusColor}"/>
+
+    <SolidColorBrush x:Key="ConsoleBackgroundBrush" Color="{StaticResource ConsoleBackgroundColor}"/>
+    <SolidColorBrush x:Key="ConsoleTextBrush" Color="{StaticResource ConsoleTextColor}"/>
+    <SolidColorBrush x:Key="ConsoleAccentBrush" Color="{StaticResource ConsoleAccentColor}"/>
+    <SolidColorBrush x:Key="ConsoleErrorBrush" Color="{StaticResource ConsoleErrorColor}"/>
+    <SolidColorBrush x:Key="ConsoleWarningBrush" Color="{StaticResource ConsoleWarningColor}"/>
+
+    <LinearGradientBrush x:Key="PrimaryGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="{StaticResource PrimaryColor}" Offset="0"/>
+        <GradientStop Color="{StaticResource PrimaryLightColor}" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="HeaderGradientBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#2D2D30" Offset="0"/>
+        <GradientStop Color="#252526" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="CardGradientBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#3C3C3C" Offset="0"/>
+        <GradientStop Color="#333337" Offset="1"/>
+    </LinearGradientBrush>
+
+</ResourceDictionary>
